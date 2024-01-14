@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { Movie } from "../entities/Movie";
+import Movie from "../entities/Movie";
 import APIClient, { FetchResponse } from "../services/api-client";
 
 const useMovie = (gameId: number) => {
